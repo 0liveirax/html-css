@@ -9,7 +9,7 @@
 
 :root{
     --font: normal 400 6vw "Passion One", sans-serif;
-    --font-text: normal 200 3.5vw "Itim", sans-serif;
+    --font-text: normal 200 3vw "Itim", sans-serif;
 }
 
 html, body{
@@ -31,6 +31,7 @@ header > h1{
 
 header > p{    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
     padding-bottom: 50px;
 }
 
@@ -54,19 +55,35 @@ section{
     padding-left: 30px;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 .normal{
     background-color: white;
     color: black;
 }
 
 .image{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background-color: rgb(54, 54, 54);
     color: white;
 }
 
 .image > p{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.534);
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.486);
+}
+
+#img01{
+    background: url(../imagens/background001.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+#img02{
+    background: url(../imagens/background002.jpg) center no-repeat fixed;
+    background-size: cover;
 }
 
 footer{
